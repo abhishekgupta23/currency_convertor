@@ -1,20 +1,7 @@
 import streamlit as st
 from PIL import Image
 import requests
-st.markdown(
-        """
-        <style>
-        .reportview-container {
-            background: url("https://images.unsplash.com/photo-1576502200916-3808e07386a5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1046&q=80") no-repeat center fixed;
-            background-size: cover;
-        }
-    .sidebar .sidebar-content {
-            background: url("url_goes_here")
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+
 #---------------------------------#
 # New feature (make sure to upgrade your streamlit library)
 # pip install --upgrade streamlit
